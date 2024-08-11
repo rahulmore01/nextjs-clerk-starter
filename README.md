@@ -12,7 +12,7 @@ Link - https://clerk.com/docs/guides/basic-rbac.
 step 4- Check role based auth implementation -
 file --> app/cms/layout (every children inside layout will come under admin protection.)
 
-step 5- visit localhost:3000/cms/profile.If you are admin you will see something like this -->
+step 5- visit "localhost:3000/cms/profile" (profile is protected under layout with org:admin role).If you are admin you will see something like this -->
 
 <img width="789" alt="image" src="https://github.com/user-attachments/assets/130ab379-90c7-4033-a3b2-f8b34258adc2">
 
